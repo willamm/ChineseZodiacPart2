@@ -1,0 +1,146 @@
+/*
+	format of the Chinese Zodiac
+*/
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+	background-image:url(../images/background.jpg);	
+	font-family: Arial, sans-serif;
+	text-align: center;	
+	width:90%;
+	margin:auto;
+	margin-bottom: 0px;
+}
+.nav{
+	padding-left:50px;
+	padding-top:20px;
+	
+}
+.nav>li{
+	display:inline-block;	
+	padding-right:80px;
+	
+}
+.nav>li>a>img{
+	width:150px;
+	height:30px;
+}
+.banner>a>img{
+	width:100%;
+	display:block;
+	height:200px;
+}
+h2{
+	background-image:url(../images/headbg.png);
+	padding:35px 0 35px 0;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.footer{
+  	bottom: 0;
+  /* Set the fixed height of the footer here */
+  	height: 60px;
+	width:90%;
+	background-color:#EDA916;
+	position:absolute;
+}
+
+.footer>p>a{
+	padding-right:100px;
+	
+}
+/*
+	index.html
+*/
+#intro{
+	width:80%;
+	margin:auto;
+	padding:0 80px 80px 80px;
+}
+#intro>h3{
+	background-image:url(../images/headbg.png);
+	padding:35px 0 35px 0;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#intro>p{
+	text-indent:50px;
+	padding:25px 100px 25px 100px;
+	text-align:left;
+}
+/*
+	12signs.html
+*/
+
+.links{
+	width:80%;
+	margin:auto;
+}
+.links>li{
+	display:inline-block;
+	padding:50px 50px 80px 50px;
+}
+.links>li>a>img{
+	width:150px;
+	height:100px;
+}
+/*
+	12signs
+*/
+div.zodiacSign {
+	text-align: center;
+	padding:100px 0 200px 0;
+}
+.zodiacSign>img{
+	width:100px;
+	height:100px;
+}
+.zodiacSign>p{
+		text-align:left;
+		text-indent:50px;
+		width:70%;
+		margin:auto;
+		padding-top:15px;
+		
+}
+hr {
+	width: 70%;
+	height: 2px;	
+	background-color: black;
+}
+/*
+	Contact
+*/
+table{
+	border:2px;
+}
+form{
+	display:table;
+	width:100%;
+}
+.form{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
