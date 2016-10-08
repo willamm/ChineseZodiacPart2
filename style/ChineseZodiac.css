@@ -9,23 +9,23 @@ body{
 	background-image:url(../images/background.jpg);	
 	font-family: Arial, sans-serif;
 	text-align: center;	
-	width:90%;
+	/*width:90%;*/
 	margin:auto;
 	margin-bottom: 0px;
 }
 .nav{
-	padding-left:50px;
+	padding-left:20px;
 	padding-top:20px;
 	
 }
 .nav>li{
-	display:inline-block;	
-	padding-right:80px;
+	display:inline-block;
+	/*padding-right:80px;*/
 	
 }
 .nav>li>a>img{
-	width:150px;
-	height:30px;
+	width:90px;
+	height:67px;
 }
 .banner>a>img{
 	width:100%;
@@ -46,11 +46,6 @@ h2{
 	width:90%;
 	background-color:#EDA916;
 	position:absolute;
-}
-
-.footer>p>a{
-	padding-right:100px;
-	
 }
 /*
 	index.html
@@ -126,6 +121,12 @@ form{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:left;	
+}
+/*Navigation images*/
+
+.nav_images>div>a>img {
+	align-content: center;
+
 }
 
 
