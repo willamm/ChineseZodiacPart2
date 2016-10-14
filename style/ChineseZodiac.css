@@ -88,7 +88,7 @@ h2{
 */
 div.zodiacSign {
 	text-align: center;
-	padding:100px 0 200px 0;
+	padding:50px 0 200px 0;
 }
 .zodiacSign>img{
 	width:100px;
@@ -124,10 +124,9 @@ form{
 	text-align:left;	
 }
 /*Navigation images*/
-
-.nav_images>div>a>img {
-	align-content: center;
-
+.jumbotron {
+	background-color: transparent;
+	color: black;
 }
 
 
