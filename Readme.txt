@@ -7,3 +7,5 @@ William Murphy	A00912720	setA	wmurphy9@my.bcit.ca
 	We tried our best to make the pages beautiful and keep the files organized, though it's not as pretty as we planned.
 
 	Complying with the XHTML 1.0 standard was also difficult.
+
+Github: https://github.com/willamm/ChineseZodiacPart2.git

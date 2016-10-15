@@ -27,8 +27,9 @@ body{
 	width:90px;
 	height:67px;
 }
+
 .banner>a>img{
-	width:100%;
+	width:70%;
 	display:block;
 	height:200px;
 }
@@ -90,6 +91,7 @@ div.zodiacSign {
 	text-align: center;
 	padding:50px 0 200px 0;
 }
+
 .zodiacSign>img{
 	width:100px;
 	height:100px;
@@ -123,11 +125,25 @@ form{
 	margin-right:auto;
 	text-align:left;	
 }
+
 /*Navigation images*/
-.jumbotron {
-	background-color: transparent;
+img {
+	width: 150px;
+	height: 150px;
+}
+img.center-block.left {
+	margin-right: 0;
+}
+img.center-block.right {
+	margin-left: 0;
+}
+
+.page-header h1{
 	color: black;
 }
+
+
+
 
 
 
