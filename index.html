@@ -1,45 +1,61 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/ChineseZodiac.css" rel="stylesheet">
 	<title>Home</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="style/ChineseZodiac.css"/>
 </head>
 	
-<body id="home">
-	<ul class="nav">
-		<li><a href="index.html"><img src="images/Home Page.png" alt="Home"/></a></li>
-		<li><a href="12signs.html"><img src="images/12Signs.png" alt="12Signs"/></a></li>
-		<li><a href="contactus.html"><img src="images/Contact Us.png" alt="Contact"/></a></li>
-	</ul>
-	<div class="banner">
-		<a href="index.html">
-			<img src="images/ChineseZodiacBanner.png" alt="banner"/>
-		</a>
-	</div>
-	<div id="intro">
-	<h3>Introduction</h3>
-	<p>The Chinese zodiac is the classification scheme that assigns an animal to each year in a repeating twelve-year cycle. 
-	The 12-year cycle of Chinese zodiac is an approximation to the 11.86-year cycle of Jupiter, the largest planet of the 
-	solar system. There is a similar concept in western astrology and means "circle of animals". It is a scheme and systematic 
-	plan of future action that relates each year to an animal and its reputed attributes according to a 12-year cycle. It 
-	remains popular in several East Asian countries including China, Vietnam, Korea, Japan, Philippines, Thailand and Taiwan.</p>
-	<h3>Similarities with Western Zodiac</h3>
-	<p>Identifying this scheme using the term "zodiac" reflects several similarities to the Western zodiac: both have time 
-	cycles divided into 12 parts, each labels at least the majority of those parts with names of animals, and each is widely 
-	associated with a culture of ascribing a person's personality or events in his or her life to the supposed influence of 
-	the person's particular relationship to the cycle. Nevertheless, there are major differences: the Chinese 12-part cycle 
-	corresponds to years, rather than months. The Chinese zodiac is represented by 12 animals, whereas some of the signs in 
-	the Western zodiac are not animals, despite the implication of the Greek etymology of "zodiac". The animals of the Chinese
-	zodiac are not associated with constellations spanned by the ecliptic plane.</p>
-	</div>
-	
-	<div class="footer">
-	<p>Yi Liu,  A00973957,  Set A
-		<a href='ma&#105;l&#116;&#111;&#58;%79%&#55;3a%62&#101;&#108;%6Ciu&#50;7&#54;&#64;g&#37;6Da&#105;&#108;&#46;&#37;63&#111;&#109;'>
-		y&#115;abe&#108;li&#117;276&#64;gmai&#108;&#46;com</a>
-	William Murphy, A00912720, Set A<a href='m&#97;il&#116;o&#58;w&#109;%7&#53;rp%68&#121;9%4&#48;my%2&#69;%6&#50;c&#37;69t&#46;&#99;a'>
-		wmur&#112;hy&#57;&#64;my&#46;b&#99;i&#116;&#46;ca</a></p>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-4">
+				<a href="index.html"><img src="images/HomePage.png" alt="HomePage" class="img-responsive center-block left"/></a>
+			</div>
+			<div class="col-xs-4">
+				<a href="12signs.html"><img src="images/12Signs.png" alt="12Signs" class="img-responsive center-block"/></a>
+			</div>
+			<div class="col-xs-4">
+				<a href="contactus.html"><img src="images/ContactUs.png" alt="ContactUs" class="img-responsive center-block right"/></a>
+			</div>
+		</div>
+		<div class="banner hidden-xs">
+			<a href="index.html"><img src="images/ChineseZodiacBanner.png" class="img-responsive center-block" alt="banner"/></a>
+		</div>
+		<div class="center-block visible-xs page-header">
+				<a href="index.html"><h1>The Chinese Zodiac</h1></a>
+				<p>BCIT introduction course on web development</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<h3 class="hidden-xs">Introduction</h3>
+				<h4 class="visible-xs">Introduction</h4>
+				<p class = "col-xs-12">The Chinese zodiac is the classification scheme that assigns an animal to each year in a repeating twelve-year cycle. 
+				The 12-year cycle of Chinese zodiac is an approximation to the 11.86-year cycle of Jupiter, the largest planet of the 
+				solar system. There is a similar concept in western astrology and means "circle of animals". It is a scheme and systematic 
+				plan of future action that relates each year to an animal and its reputed attributes according to a 12-year cycle. It 
+				remains popular in several East Asian countries including China, Vietnam, Korea, Japan, Philippines, Thailand and Taiwan.</p>
+				<br/>
+				<h3 class="hidden-xs">Similarities with Western Zodiac</h3>
+				<h4 class="visible-xs">Similarities with Western Zodiac</h4>
+				<p class = "col-xs-12">Identifying this scheme using the term "zodiac" reflects several similarities to the Western zodiac: both have time 
+				cycles divided into 12 parts, each labels at least the majority of those parts with names of animals, and each is widely 
+				associated with a culture of ascribing a person's personality or events in his or her life to the supposed influence of 
+				the person's particular relationship to the cycle. Nevertheless, there are major differences: the Chinese 12-part cycle 
+				corresponds to years, rather than months. The Chinese zodiac is represented by 12 animals, whereas some of the signs in 
+				the Western zodiac are not animals, despite the implication of the Greek etymology of "zodiac". The animals of the Chinese
+				zodiac are not associated with constellations spanned by the ecliptic plane.</p>
+			</div>
+		</div>
+		<footer class="footer">
+		<p>Yi Liu,  A00973957,  Set A
+			<a href='ma&#105;l&#116;&#111;&#58;%79%&#55;3a%62&#101;&#108;%6Ciu&#50;7&#54;&#64;g&#37;6Da&#105;&#108;&#46;&#37;63&#111;&#109;'>
+			y&#115;abe&#108;li&#117;276&#64;gmai&#108;&#46;com</a>
+		William Murphy, A00912720, Set A<a href='m&#97;il&#116;o&#58;w&#109;%7&#53;rp%68&#121;9%4&#48;my%2&#69;%6&#50;c&#37;69t&#46;&#99;a'>
+			wmur&#112;hy&#57;&#64;my&#46;b&#99;i&#116;&#46;ca</a></p>
+		</footer>
 	</div>
 </body>
 
